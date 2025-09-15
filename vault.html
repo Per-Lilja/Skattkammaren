@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Valv – Skattkammaren</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">🗝️ Skattkammaren</div>
+      <div class="nav">
+        <a href="index.html">Hem</a>
+        <a href="quiz.html">Quiz</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="badge">Valv</div>
+      <h1>Öppna skattkammaren</h1>
+      <p>Skriv in lösenordet du fick från quizet.</p>
+      <div class="grid grid-2">
+        <div>
+          <label class="label" for="name">Ditt namn</label>
+          <input id="name" class="input" placeholder="Frivilligt">
+        </div>
+        <div>
+          <label class="label" for="pwd">Lösenord</label>
+          <input id="pwd" class="input" type="password" placeholder="•••••••••••••••••">
+        </div>
+      </div>
+      <div class="actions" style="margin-top:14px">
+        <form id="vault-form"><button class="btn btn-primary" type="submit">Lås upp</button></form>
+        <a href="quiz.html" class="btn btn-ghost">Gör quizet först</a>
+      </div>
+    </div>
+
+    <div id="vault-out" style="margin-top:18px"></div>
+
+    <div class="footer">© Skattkammaren – undervisningsbruk</div>
+  </div>
+  <script src="vault.js"></script>
+</body>
+</html>
