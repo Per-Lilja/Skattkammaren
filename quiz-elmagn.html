@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quiz – El & Magnetism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="brand">🗝️ Skattkammaren</div>
+      <div class="nav">
+        <a href="index.html">Hem</a>
+        <a href="quiz.html">Quiz: Materia m.m.</a>
+        <a href="vault.html">Valv</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="badge">Quiz</div>
+      <h1>El & Magnetism</h1>
+      <div class="grid grid-2">
+        <div><span class="label">Tid</span> <span class="timer" id="timer">00:00</span></div>
+        <div><span class="label">Framsteg</span>
+          <div class="progressbar"><div id="prg"></div></div>
+          <div class="small" id="progtext">0/19 besvarade</div>
+        </div>
+      </div>
+      <div class="actions" style="margin-top:10px">
+        <button class="btn" id="btnShowAnswers">Visa rätt svar</button>
+      </div>
+    </div>
+
+    <div id="quiz-root" class="grid" style="margin-top:16px"></div>
+    <div id="result" style="margin-top:16px"></div>
+
+    <div class="footer">© Skattkammaren – undervisningsbruk</div>
+  </div>
+  <script src="quiz-elmagn.js"></script>
+</body>
+</html>
