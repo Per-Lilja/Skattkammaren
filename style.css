@@ -52,7 +52,7 @@ p{opacity:.95;line-height:1.55}
   font-weight:800
 }
 
-.btn-primary{background:var(--accent)}
+.btn-primary{background:transparent;border:2px solid var(--accent);color:var(--fg)}
 .btn-ghost{background:transparent;border:2px solid var(--accent);color:var(--fg)}
 
 .grid{display:grid;gap:16px}
